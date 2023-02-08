@@ -1,0 +1,19 @@
+{
+  "name": "greeter",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "build": "asb",
+    "build:debug": "asb --target debug",
+    "test": "asp --nologo"
+  },
+  "dependencies": {
+    "env-cmd": "^10.1.0",
+    "near-sdk-as": "3.1.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "shelljs": "^0.8.4"
+  }
+}
